@@ -1,3 +1,18 @@
+:root {
+  --main-branding-color: #ffe3e1;
+  --second-color: grey;
+  --add-color: white;
+}
+.App a {
+  text-decoration: none;
+}
+.App strong {
+  color: black;
+}
+.container {
+  max-width: 800px;
+}
+
 .App-footer {
   margin: 30px 0;
 }

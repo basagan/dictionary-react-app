@@ -9,9 +9,18 @@ export default function App() {
         <header className="App-header">
           <img src={logo} alt="logo" />
         </header>
-        <Dictionary />
+        <Dictionary keyDefaultWord="code" />
         <footer className="App-footer">
-          <small>Coded by Tatiana Daraev</small>
+          <small>
+            Coded by
+            <a
+              href="https://github.com/basagan?tab=overview&from=2022-08-01&to=2022-08-31"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Tatiana Daraev</strong>
+            </a>
+          </small>
         </footer>
       </div>
     </div>

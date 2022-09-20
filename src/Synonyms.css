@@ -1,0 +1,15 @@
+:root {
+  --main-branding-color: #ffe3e1;
+  --second-color: grey;
+  --add-color: white;
+}
+
+ul {
+  list-style: none;
+  margin-top: 20px;
+}
+li {
+  font-size: 12px;
+  color: var(--second-color);
+  padding: 0px 8px;
+}

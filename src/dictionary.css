@@ -1,0 +1,27 @@
+:root {
+  --main-branding-color: #f0ebe3;
+  --second-color: grey;
+  --add-color: white;
+}
+
+.Dictionary section {
+  background-color: black;
+  padding: 15px;
+  border-radius: 8px;
+  padding: 30px 0;
+  box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.1);
+  color: var(--add-color);
+}
+input {
+  border-radius: 5px;
+  border: 1px solid var(--main-branding-color);
+  line-height: 40px;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 6px 4 px;
+}
+
+strong {
+  color: var(--second-color);
+}

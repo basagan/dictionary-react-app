@@ -1,0 +1,11 @@
+:root {
+  --main-branding-color: #ffe3e1;
+  --second-color: grey;
+  --add-color: white;
+}
+
+h4,
+em {
+  color: var(--second-color);
+  font-style: italic;
+}
