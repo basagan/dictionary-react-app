@@ -12,7 +12,11 @@ export default function App() {
         <Dictionary keyDefaultWord="code" />
         <footer className="App-footer">
           <small>
-            Coded by
+            <span className="fa-stack">
+              <i className="fa-solid fa-square fa-stack-2x"></i>
+              <i className="fab fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+            Coded by{" "}
             <a
               href="https://github.com/basagan?tab=overview&from=2022-08-01&to=2022-08-31"
               target="_blank"
